@@ -1,0 +1,38 @@
+h1{
+    font-size: 3rem;
+}
+.header-container{
+    height: 140px;
+}
+.icon-container{
+    width: 100px;
+    height: 100px;
+}
+.icon-lab{
+    width: 100px;
+    height: 100px;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
+input, label{
+    display: none;
+}
+.wrapper{
+    position: absolute;
+    left: calc(100% - 500px);
+    clip-path: circle(75%);
+    height: 140px;
+    max-width: 500px;
+}
+.wrapper li {
+    float: left;
+}
+.wrapper a{
+    font-size: 1.6rem;
+}
+.scroll-image{
+    margin-bottom: 0px;
+    height: 460px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}

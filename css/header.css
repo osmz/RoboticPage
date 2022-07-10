@@ -1,0 +1,110 @@
+header{
+    font-family: "Playfair Display";
+}
+h1{
+    font-family: "Cinzel";
+    font-weight: 500;
+    font-size: 2rem;
+}
+.header-container{
+    position: relative;
+    min-width: 320px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: var(--Robotics-fColor);
+    color: white;
+}
+.icon-container{
+    position: relative;
+    margin: 0px 15px;
+    width: 70px;
+    height: 70px;
+}
+.icon-lab{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: calc(50% - 35px);
+    top: calc(50% - 35px);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.menu-btn{
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    left: calc(100% - 50px);
+    transition: all 0.3s ease-in-out;
+}
+.menu-btn i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    cursor: pointer;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 100%;
+    background: var(--Robotics-fColor);
+    clip-path: circle(25px at calc(100% - 42px) 68px);
+    transition: all 0.3s ease-in-out;
+}
+#active:checked ~ .wrapper{
+    clip-path: circle(75%);
+}
+#active:checked ~ .menu-btn{
+    color: white;
+}
+#active:checked ~ .menu-btn i:before{
+    content: "\F62A";
+}
+input[type="checkbox"]{
+    display: none;
+}
+.wrapper ul{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+}
+.wrapper a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    line-height: 3.6rem;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+.scroll-image{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+.scroll-image img {
+    margin: 0px auto;
+    width: 80%;
+    height: 90%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.scroll-image p{
+    margin: 0px auto;
+    width: 80%;
+}

@@ -1,0 +1,14 @@
+.article-yearItem{
+    margin: auto 30px;
+}
+.article-data{
+    width: 120px;
+    font-size: 2.8rem;
+}
+.article-information{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 20px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    border-left: 3px solid var(--Robotics-fColor);
+}

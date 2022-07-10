@@ -1,0 +1,46 @@
+.footer-line{
+    position: relative;
+    width: 95%;
+    margin: 20px auto 0px auto;
+}
+.footer-container{
+    margin: 5px auto;
+    width: 80%;
+    align-items: center;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 20px;
+}
+.address-container{
+    margin: 10px 0px;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    word-break: break-all;
+    color: var(--Robotics-text);
+}
+.contactInfo-container{
+    margin: 20px 0px;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    word-break: break-all;
+    color: var(--Robotics-text);
+}
+.maps-container{
+    margin: 10px auto;
+    width: 100%;
+    height: 80%;
+    margin-right: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.designed-container{
+    width: 100%;
+    height: 20px;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    text-align: end;
+    background-color: black;
+    color: white;
+}

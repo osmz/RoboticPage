@@ -1,0 +1,27 @@
+/*
+    1. Positioning
+    2. Box Model
+    3. Typography
+    4. Visuals
+    5. Others
+*/
+:root{
+    /*Colors*/
+    --Robotics-fColor: #001540;
+    --Robotics-sColor: #FF7C00;
+    --Robotics-fBackground: #FFFFFF;  
+    --Robotics-sBackground: #F1F1F2;   
+    --Robotics-text: #575757;   
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    background-color: var(--Robotics-fBackground);
+}
+body {
+    font-size: 1.6rem;
+}

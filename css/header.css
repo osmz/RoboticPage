@@ -6,6 +6,10 @@ h1{
     font-weight: 500;
     font-size: 2rem;
 }
+h1 a {
+    color: white;
+    text-decoration: none;
+}
 .header-container{
     position: relative;
     min-width: 320px;

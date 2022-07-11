@@ -42,12 +42,12 @@ hr{
     height: 60px;
 }/* ----- INFORMATION CONTAINER ----- */
 .information-articleLab{
-    grid-column-start: 2;
-    grid-column-end: 6;
-}
-.information-articleNews{
     grid-column-start: 7;
     grid-column-end: 11;
+}
+.information-articleNews{
+    grid-column-start: 2;
+    grid-column-end: 6;
 }
 .second-option{
     transform: scale(0.5);
